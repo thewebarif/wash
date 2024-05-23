@@ -585,6 +585,10 @@ video {
   margin: auto;
 }
 
+.mt-\[70px\] {
+  margin-top: 70px;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -679,6 +683,10 @@ video {
     margin-left: 0px !important;
   }
 
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
   .md\:h-screen {
     height: 100vh;
   }
@@ -689,11 +697,6 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .md\:text-left {
