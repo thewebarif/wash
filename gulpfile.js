@@ -12,7 +12,7 @@
     =============================
     */
 
-    var File_Name = 'html-seedra.zip';
+    var File_Name = 'html-wash.zip';
     var CSS_Files = [
     './assets/css/custom.css',
 
