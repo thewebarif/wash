@@ -577,41 +577,12 @@ video {
   }
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .\!m-auto {
   margin: auto !important;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
-.mt-\[30px\] {
-  margin-top: 30px;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
-.ml-0 {
-  margin-left: 0px;
-}
-
-.mr-0 {
-  margin-right: 0px;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
-}
-
-.\!ml-1 {
-  margin-left: 0.25rem !important;
+.m-auto {
+  margin: auto;
 }
 
 .inline-block {
@@ -626,20 +597,8 @@ video {
   display: grid;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.max-w-\[500px\] {
-  max-width: 500px;
-}
-
 .max-w-\[300px\] {
   max-width: 300px;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -650,12 +609,8 @@ video {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-center {
-  justify-content: center;
+.justify-between {
+  justify-content: space-between;
 }
 
 .rounded-\[6px\] {
@@ -686,55 +641,39 @@ video {
   padding-bottom: 43px;
 }
 
-.pt-\[43px\] {
-  padding-top: 43px;
+.pt-\[30px\] {
+  padding-top: 30px;
 }
 
 .pt-\[46px\] {
   padding-top: 46px;
 }
 
-.pt-\[30px\] {
-  padding-top: 30px;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-\[43px\] {
-  font-size: 43px;
 }
 
 .text-\[17px\] {
   font-size: 17px;
 }
 
-.text-\[37px\] {
-  font-size: 37px;
-}
-
 .text-\[18px\] {
   font-size: 18px;
 }
 
-.font-normal {
-  font-weight: 400;
+.text-\[37px\] {
+  font-size: 37px;
 }
 
 .font-extrabold {
   font-weight: 800;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 @media (min-width: 768px) {
-
-  .md\:m-auto {
-    margin: auto;
-  }
-
-  .md\:\!ml-1 {
-    margin-left: 0.25rem !important;
-  }
 
   .md\:\!ml-0 {
     margin-left: 0px !important;
@@ -748,10 +687,6 @@ video {
     max-width: 500px;
   }
 
-  .md\:max-w-\[300px\] {
-    max-width: 300px;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -761,19 +696,15 @@ video {
     padding-bottom: 0px;
   }
 
-  .md\:pt-0 {
-    padding-top: 0px;
-  }
-
   .md\:text-left {
     text-align: left;
   }
 
-  .md\:text-\[43px\] {
-    font-size: 43px;
-  }
-
   .md\:text-\[20px\] {
     font-size: 20px;
+  }
+
+  .md\:text-\[43px\] {
+    font-size: 43px;
   }
 }
